@@ -1,0 +1,17 @@
+Sudo apt update
+Sudo apt install docker.io
+Sudo systemctl status docker
+CTl +c to end
+Sudo docker images
+Sudo docker ps
+Sudo docker pull hello-world
+Sudo docker images
+Sudo docker pull nginx
+Sudo docker images
+Sudo docker run hello-world
+Sudo docker run - -name world -d -p 9000:9000 nginx
+
+
+Sudo docker build cloud_demo -t iacsd
+Sudo docker images
+Sudo docker run - - name iacsd -d -p 8000:8000 iacsd
