@@ -1,0 +1,6 @@
+#!/bin/bash
+Rollno:name:marks
+1111:Ram:87
+2222:Sham:69
+3333:Teena:58
+4444:Priya:74
